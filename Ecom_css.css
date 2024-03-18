@@ -1,0 +1,632 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('game_images/1231.png');
+    background-repeat: no-repeat;
+}
+.header{
+    overflow:auto;
+    background-image: url('game_images/1231.png');
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius:25px;
+    position: fixed;
+    right: 0.5%;
+    left: 0.5%;
+    top:0%;
+}
+.header img.logo{
+    max-width: 100%;
+    width:2%;
+    height:2%;
+    float:left;
+    margin-top: 1.1%;
+    margin-left:1%;
+}
+.header p{
+    float:left;
+    margin-left: 1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size:large;
+    padding-right: 66%;
+}
+.header button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    max-width:100%;
+    margin-top:1.0%;
+    margin-right:1%;
+    float:left;
+    background-color: transparent;
+    border:0px solid transparent;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight: bolder;
+    color: white;
+    cursor:pointer;
+}
+.header button:hover{
+    font-size: 24px;
+    border:0px white;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+.frontpg{
+    padding-top: 4.5%;
+    overflow:auto;
+    animation-name: example;
+    animation-duration: 1s;
+} /*Home page fade animation*/
+@keyframes example{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+}
+.frontpg img.png{
+    float:right;
+    padding-right:2%;
+    height: 676.9px;
+}
+.frontpg1 {
+    float: left;
+    width: 50%;
+   
+}
+.frontpg p{
+    text-align: right;
+    margin-left:5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size:72px;
+    font-weight: bolder;
+
+}
+.frontpg img.logo{
+    padding-left: 80%;
+    padding-top: 20%;
+    margin-bottom: -100px;
+}
+.frontpg button{
+    cursor: pointer;
+    border: 12px solid white;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    background-color: white;
+    font-weight: bolder;
+    margin-top: 10%;
+    margin-left: 86%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0px 10px 25px gray;
+}
+.frontpg button:hover{
+    border:12px solid black;
+    background-color: black;
+    color: white;
+}
+.explore{
+    overflow: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 10px solid white;
+    border-radius: 25px;
+    background-color: white;
+}
+.explore p.expHeaders{
+    margin-left: 0.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+.gme1{
+    overflow: auto;
+    margin-bottom: 5%;
+    margin-left: 3.9%;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px gray;
+    float: left;
+    width: 20%;
+}
+/*Game images*/
+.explore img.games{
+    height: 300px;
+    width: 80%;
+    box-shadow: 0px 0px 25px gray;
+    border: 1px transparent;
+    border-radius: 25px;
+    margin: 10%;
+}
+.gme1 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.gme2{
+    overflow: auto;
+    margin-bottom: 5%;
+    margin-left: 3.9%;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0px 5px 10px gray;
+    float: left;
+    width: 20%;
+}
+.gme2 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:white;
+}
+.gme2 img{
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px grey;
+}
+.gme1 button{
+    background-color:transparent;
+    max-width: 100%;
+    width: 100%;
+    cursor:pointer;
+    border: 0px;
+}
+.gme2 button{
+    background-color:transparent;
+    max-width: 100%;
+    width: 100%;
+    cursor:pointer;
+    border: 0px;
+}
+.more{
+    margin: 4%;
+    padding-left: 3%;
+    margin-left: 10%x;
+    border: 10px solid  white ;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 10px 25px gray;
+    overflow: auto;
+}
+.more p.head{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 42px;
+    text-align: center;
+}
+.more p.con{
+    float: right;
+    width: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.more img.steve{
+    float: left;
+    width: 30%;
+}
+.morebttn{
+    margin-top: 25%;
+    margin-left: 34%;
+    overflow: auto;
+}
+.morebttn button{
+    padding: 10px;
+    width: 20%;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+.morebttn button:hover{
+    background-image: url('game_images/1231.png');
+    color:white;
+}
+.socials{
+    float: left;
+    width: 41.5%;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0px 10px 25px gray;
+    margin: 4%;
+}
+.socials h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.contacts{
+    float: right;
+    width: 41.5%;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0px 10px 25px gray;
+    margin: 4%;
+}
+.contacts h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.contacts p{
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;}
+.socialimg{
+    float: left;
+    width:10%;
+    margin: 15px;
+    margin-left: 20%;
+}
+.socialimg img.sc{
+    width: 50px;
+}
+.socialtxt{
+    margin-left: 45%;
+    float: left;
+    margin-left:5px;
+    margin-top: 10px;
+}
+.socialtxt p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/*Store page css*/
+.frntpgstr{
+    margin-top: 4.5%;
+    border: 1px solid transparent;
+}
+.frntpgstr h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 72px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.frntpgstr img.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gmxplr{
+    overflow: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 10px solid white;
+    border-radius: 25px;
+    background-color: white;
+}
+.gmxplr p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 72px;
+    color:black;
+    text-align: center;
+}
+.gmsctn img.games{
+    height: 300px;
+    width: 80%;
+    box-shadow: 0px 0px 25px gray;
+    border: 1px transparent;
+    border-radius: 25px;
+    margin: 10%;
+}
+.nwslttr{
+    margin-left: 5%;
+    margin-right:5%;
+    border:1pc solid black;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0px 10px 25px gray;
+}
+.nwslttr h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 72px;
+    font-weight: bolder;
+    text-align: center;
+}
+.nwslttr p{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 10%;
+    margin-right:10%;
+}
+input[type=text], select {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1%;
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+    border: 0px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+label{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left:20%;
+}
+.subs{
+    padding-left: 45%;
+    padding-top:1%;
+    
+}
+.subs button{
+    border: 0px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+.subs button:hover{
+    background-image: url('game_images/1231.png');
+    color:white;
+}
+/*individual games css*/
+.gamediv{
+    padding: 3%;
+    margin-top: 10%;
+    overflow: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 10px solid white;
+    border-radius: 25px;
+    background-color: white;
+}
+.game{
+    overflow: auto;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px gray;
+    float: left;
+    width: 30%;
+}
+.gamediv img.games{
+    height: auto;
+    width: 80%;
+    box-shadow: 0px 0px 25px gray;
+    border: 1px transparent;
+    border-radius: 25px;
+    margin: 10%;
+}
+.ttl{
+    float: right;
+    width: 65%;
+    border: 1px solid transparent;
+}
+.ttl h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+.by{
+    float: right;
+    width: 65%;
+    border: 1px solid transparent;
+}
+.by button{
+    cursor:pointer;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right:3%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2.5px 6.25px gray;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.by button:hover{
+    background-image: url(game_images/1231.png);
+    color:white;
+}
+.desc {
+    float: right;
+    width: 65%;
+    border: 1px solid transparent;
+}
+.desc p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; 
+}
+.desc h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.desc ul{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/*FAQ page CSS*/
+.qs{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10%;
+    border: 1px solid black;
+    border-radius:25px;
+    background-color: black;  
+    padding: 3%; 
+}
+.qs h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.qs p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: justify;
+}
+/*CART*/
+.cartdiv{
+    padding: 1%;
+    margin-top: 10%;
+    overflow: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 10px solid white;
+    border-radius: 25px;
+    background-color: white;
+}
+.cartimg{
+    float:left;
+    overflow: auto;
+    border: 1px solid transparent;
+    width:20%;
+}
+.cartdiv img{
+    height: 300px;
+    width: 90%;
+    box-shadow: 0px 5px 11px gray;
+    border: 1px transparent;
+    border-radius: 25px;
+    margin: 5%;
+    float: left;
+
+}
+.cartdiv h1{
+    color:black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 72px;
+}
+.gamecart{
+    padding:3%;
+    overflow: auto;
+    margin-bottom: 5%;
+    margin-left: 3.9%;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px gray;
+    float: left;
+    width: 85%;
+}
+.cartdesc{
+    overflow: auto;
+    float:right;
+    width: 79%;
+    border: 1px solid transparent;
+    padding-top:80px;
+    height:245px;
+}
+.carttl{
+    float:left;
+    color:black;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    width:90%;
+}
+
+.cartbttn{
+    margin-left: 1%;;
+    overflow: auto;
+    border: 1px solid transparent;
+    float:left;
+}
+.cartbttn button{
+    cursor: pointer;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: 1px solid transparent;
+    padding:2%;
+    background-color: black;
+    border-radius: 15px;
+    width:120px;
+    height: 55px;
+}
+.cartbttn button:hover{
+    background-image: url(game_images/1231.png);
+    color:black;
+}
+/*Thank you page*/
+.ty{
+    overflow: auto;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 25px;
+    margin:7%;
+    height: 550px;
+
+}
+.ty h1{
+    color:black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 72px;
+}
+.ty p{
+    text-align:center;
+    font-size: 100px;
+}
+.tybttn button{
+    cursor: pointer;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: black;
+    border-radius: 15px;
+    width:120px;
+    height: 55px;
+    margin-left: 45%;;
+}
+.tybttn button:hover{
+    background-image: url(game_images/1231.png);
+    color:black;
+}
